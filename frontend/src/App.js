@@ -15,7 +15,7 @@ import CheckoutNav from './components/checkout/CheckoutNav';
 import useGetCartData from './hookes/useGetCartData';
 import { axiosApi } from './AxiosConfig';
 
-
+//this is App.js //
 function App() {
   const dispatch = useDispatch();
   const { getCartData } = useGetCartData();
