@@ -14,7 +14,7 @@ import Order from '../components/order/Order'
 import Account from '../components/account/Account'
 import Address from '../components/account/Address'
 import Profile from '../components/account/Profile'
-
+//This is an all routes from every component
 
 export const AllRoutes = () => {
   return (
