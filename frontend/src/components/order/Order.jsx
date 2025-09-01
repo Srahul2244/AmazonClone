@@ -25,6 +25,7 @@ const Order = () => {
     const [id, setId] = useState('');
 
     const [loading, setLoading] = useState(false);
+    //this is an order page
 
     const getOrders = async () => {
         try {
