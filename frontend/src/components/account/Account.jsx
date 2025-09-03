@@ -7,7 +7,7 @@ import order from '../../assets/order.png'
 import amazonpay from '../../assets/amazonpay.png'
 import prime from '../../assets/prime.png'
 import { Link } from 'react-router-dom'
-
+//This is account.jsx page
 const Account = () => {
 
     const toast = useToast();
