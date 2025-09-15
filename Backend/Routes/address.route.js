@@ -2,7 +2,7 @@ const express = require("express");
 const addressRoute = express.Router();
 const { usersModel } = require("../Models/Users.model");
 const { isEqual } = require('lodash');
-
+//this is address route .js
 addressRoute.route("/").post(async (req, res) => {
 
     const { address } = req.body;
