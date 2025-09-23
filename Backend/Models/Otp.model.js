@@ -7,3 +7,4 @@ const otpSchema=mongoose.Schema({
 otpSchema.index({createdAt: 1},{expireAfterSeconds: 30});
 const otpModel=mongoose.model("otp",otpSchema);
 module.exports={otpModel}
+//this is model .js
