@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+//this is reducers.js
 
 const initialState = {
     products: [],
